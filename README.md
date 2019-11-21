@@ -11,3 +11,8 @@ Running PlotAllMark.m will:
 - plot the imported data in a yyplot and mark time periods where the HEPA filter was on (red), the data was faulty (orange) and the instrument was down for maintainance (yellow)  
     
 ![ROSRawSignal](https://github.com/SSteimer/OPROSI/blob/master/ROSSignalRaw.png "ROS raw signal")
+
+## Generating diurnal plots: 
+The folder DiurnalPlot contains the code to generate diurnal plots of the ROS signal, converted to H2O2 equivalents [nmol/m3] as well as some cleaned up ROS example data (SignalAdjusted.mat).
+
+![DiurnalPlot](https://github.com/SSteimer/OPROSI/blob/master/DiurnalPlot.png "Diurnal plot of the ROS signal [nmol/m3]")
